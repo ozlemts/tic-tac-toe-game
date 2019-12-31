@@ -1,0 +1,50 @@
+//COLORS
+
+$bg-color: #222831;
+$grid-gap-color: #eeeeee;
+$text-color: #00adb5;
+$table-color: #393e46;
+
+
+//FONTS
+$font-primary: 'Amatic SC', cursive;
+$font-secondary: 'Permanent Marker', cursive;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;  // 10px/16px = 62.5% -> 10px
+}
+
+body {
+    background-color: $bg-color;
+    font-family: $font-primary;
+    color: $text-color;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+
+ul {text-decoration: none;}
+li {text-decoration: none;}
+button {border: none;}
+
+.center {
+    margin: 0 auto;
+}
+
+.margintopbig {
+    margin-top: 8rem;
+}
+.margintopsm {
+    margin-top: 2rem;
+}
+
+

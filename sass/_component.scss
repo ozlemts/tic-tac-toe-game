@@ -1,0 +1,43 @@
+.title {
+    margin: 2.5rem auto;
+    text-align: center;
+}
+
+.container {
+    margin: 3rem auto;
+    display: grid;
+    width: 55rem;
+    grid-template-rows: repeat( 3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    & > * {
+        
+        text-align: center;
+        font-size: 7rem;
+        color: $grid-gap-color;
+        background-color: $table-color;
+        padding : 3rem;
+        font-family: $font-secondary;
+      }
+}
+
+
+
+.button {
+    width: 20rem;
+    background-color: $text-color;
+    font-family: $font-primary;
+    border: none;
+    color: $grid-gap-color;
+    padding: 2rem;
+    border-radius: 3rem;
+    text-align: center;
+    font-size: 3rem;
+    &__container {
+        position: relative;
+        left: 50%;
+        transform: translateX(-10rem);;
+    }
+    }
+
+

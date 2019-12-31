@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  background-color: #222831;
+  font-family: "Amatic SC", cursive;
+  color: #00adb5;
+  font-weight: 400;
+  line-height: 1.6; }
+
+ul {
+  text-decoration: none; }
+
+li {
+  text-decoration: none; }
+
+button {
+  border: none; }
+
+.center {
+  margin: 0 auto; }
+
+.margintopbig {
+  margin-top: 8rem; }
+
+.margintopsm {
+  margin-top: 2rem; }
+
+.heading-1, .heading-2 {
+  font-family: "Amatic SC", cursive;
+  font-weight: 400; }
+
+.heading-1 {
+  font-size: 4rem;
+  line-height: 1;
+  align-items: center; }
+
+.heading-2 {
+  font-size: 2.2rem;
+  line-height: 1;
+  padding: 1rem;
+  font-family: "Permanent Marker", cursive;
+  color: white; }
+
+.title {
+  margin: 2.5rem auto;
+  text-align: center; }
+
+.container {
+  margin: 3rem auto;
+  display: grid;
+  width: 55rem;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem; }
+  .container > * {
+    text-align: center;
+    font-size: 7rem;
+    color: #eeeeee;
+    background-color: #393e46;
+    padding: 3rem;
+    font-family: "Permanent Marker", cursive; }
+
+.button {
+  width: 20rem;
+  background-color: #00adb5;
+  font-family: "Amatic SC", cursive;
+  border: none;
+  color: #eeeeee;
+  padding: 2rem;
+  border-radius: 3rem;
+  text-align: center;
+  font-size: 3rem; }
+  .button__container {
+    position: relative;
+    left: 50%;
+    transform: translateX(-10rem); }
