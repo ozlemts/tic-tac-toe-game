@@ -11,13 +11,15 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
     & > * {
-        
         text-align: center;
         font-size: 7rem;
         color: $grid-gap-color;
         background-color: $table-color;
         padding : 3rem;
         font-family: $font-secondary;
+        &:hover {
+            box-shadow: 0 1rem 1rem rgba($text-color,.4);
+        }
       }
 }
 
@@ -33,11 +35,18 @@
     border-radius: 3rem;
     text-align: center;
     font-size: 3rem;
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 1rem 2rem rgba($bg-color,.2);
+        &::after {
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0;}
+        }
     &__container {
         position: relative;
         left: 50%;
         transform: translateX(-10rem);;
-    }
+        }
     }
 
 
