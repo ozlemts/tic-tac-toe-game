@@ -91,3 +91,6 @@ button {
     position: relative;
     left: 50%;
     transform: translateX(-10rem); }
+
+.disabledEvents {
+  pointer-events: none; }
