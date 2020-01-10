@@ -42,6 +42,7 @@
         }
     &__container {
         position: relative;
+        display: inline-block;
         left: 50%;
         transform: translateX(-10rem);;
         }
@@ -49,3 +50,13 @@
 
 
 .disabledEvents { pointer-events: none;}
+
+.result {
+    padding-top: 17rem;
+    background-color: rgba($bg-color, .8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 13rem;
+}
